@@ -11,9 +11,11 @@ name = "xy_pydev"
 authors = [{ name = "helios", email = "yuyang.0515@qq.com" }]
 description = "xy_pydev 模块"
 
-dynamic = ["version", "readme"]
+dynamic = ["version", ]
 
-classifiers = ["Programming Language :: Python :: 3.11.3"]
+readme = "README.md"
+
+classifiers = ["Programming Language :: Python :: 3"]
 
 dependencies = ["importlib_resources", "xy_console", "xy_string"]
 
@@ -30,4 +32,3 @@ include-package-data = true
 
 [tool.setuptools.dynamic]
 version = { file = "VERSION" }
-readme = { file = ["README.rst", "USAGE.rst", "README.md", "USAGE.md"] }
