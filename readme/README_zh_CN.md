@@ -15,20 +15,14 @@ pip install xy_pydev
 
 ## 开始
 
-```
-from xy_console.utils import *
-# 普通打印
-printt("hello world")
-# 打印成功
-print_s("hello world")
-# 打印执行
-print_exe("hello world")
-# 打印警告(warning)
-print_w("hello world")
-# 打印运行(running)
-print_r("hello world")
-# 打印运行(error)
-print_e("hello world")
+```bash
+xy_pydev -w clean
+# 删除缓存
+
+xy_pydev
+# 出现引导，也可以按需提前设置参数
+
+xy_pydev -m test_module_name -n test_name -s 1
 ```
 
 ## 捐赠
