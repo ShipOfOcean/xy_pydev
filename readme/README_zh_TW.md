@@ -7,6 +7,8 @@
 # 说明
 簡單Python模組開發工具.
 
+<a href="https://github.com/ShipOfOcean/xy_pydev.git" target="_blank">Github位址</a>
+
 ## 安装
 ```bash
 pip install xy_pydev

@@ -7,6 +7,8 @@
 # Description
 Simple Python module development tool.
 
+<a href="https://github.com/ShipOfOcean/xy_pydev.git" target="_blank">Github</a>
+
 ## Install
 
 ```bash
